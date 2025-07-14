@@ -41,7 +41,7 @@ export default function Home() {
           <button>🔍</button>
         </div>
         <nav className="walmart-nav">
-          <a href="#">Deals</a>
+          <a href="#">Tracker</a>
           <a href="#">Grocery & Essentials</a>
           <a href="#">Electronics</a>
           <a href="#">Clothing</a>
