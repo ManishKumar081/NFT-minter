@@ -1,0 +1,198 @@
+.walmart-home {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f6f6;
+  color: #222;
+  min-height: 100vh;
+}
+
+.walmart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0071dc;
+  padding: 0.75rem 2rem;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.walmart-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffc220;
+  cursor: pointer;
+  user-select: none;
+}
+
+.walmart-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+.walmart-search input {
+  width: 350px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem 0 0 2rem;
+  outline: none;
+  font-size: 1rem;
+}
+.walmart-search button {
+  background: #ffc220;
+  border: none;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #222;
+  transition: background 0.2s;
+}
+.walmart-search button:hover {
+  background: #ffe066;
+}
+
+.walmart-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.walmart-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.walmart-nav a:hover {
+  color: #ffc220;
+}
+
+.walmart-hero {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.walmart-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.walmart-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.walmart-hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.walmart-hero-text p {
+  font-size: 1.2rem;
+}
+
+.nft-minter-section {
+  background: #fffbe6;
+  border: 2px solid #ffc220;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.nft-minter-section h2 {
+  color: #0071dc;
+  margin-bottom: 0.5rem;
+}
+.nft-minter-btn {
+  background: #0071dc;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.nft-minter-btn:hover {
+  background: #005fa3;
+}
+
+.walmart-products {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.walmart-products h2 {
+  color: #0071dc;
+  margin-bottom: 1.2rem;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.product-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.product-info {
+  padding: 1rem;
+  text-align: center;
+}
+.product-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.product-info p {
+  color: #0071dc;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+.product-info button {
+  background: #ffc220;
+  color: #222;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.product-info button:hover {
+  background: #ffe066;
+}
+
+.walmart-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0 1rem 0;
+  margin-top: 3rem;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  border-top: 4px solid #ffc220;
+} 
