@@ -62,7 +62,7 @@ export default function Home() {
       <section className="nft-minter-section">
         <h2>Mint Your Product as an NFT!</h2>
         <p>Turn your physical products into digital assets. Click below to get started.</p>
-        <button className="nft-minter-btn" onClick={() => navigate("/nft-minter")}>Go to NFT Minter</button>
+        <button className="nft-minter-btn" onClick={() => navigate("/signup")}>Go to NFT Minter</button>
       </section>
 
       {/* Product Grid */}

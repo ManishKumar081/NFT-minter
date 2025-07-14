@@ -1,8 +1,17 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .walmart-home {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f6f6f6;
   color: #222;
   min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .walmart-header {
@@ -97,6 +106,12 @@
   font-size: 1.2rem;
 }
 
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .nft-minter-section {
   background: #fffbe6;
   border: 2px solid #ffc220;
@@ -128,16 +143,21 @@
 }
 
 .walmart-products {
+  flex: 1;
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .walmart-products h2 {
   color: #0071dc;
   margin-bottom: 1.2rem;
 }
 .product-grid {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
 }
@@ -155,7 +175,7 @@
   box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 .product-card img {
-  width: 100%;
+  width: 300px;
   height: 160px;
   object-fit: cover;
 }
@@ -191,8 +211,8 @@
   color: #fff;
   text-align: center;
   padding: 1.2rem 0 1rem 0;
-  margin-top: 3rem;
   font-size: 1rem;
   letter-spacing: 0.5px;
   border-top: 4px solid #ffc220;
-} 
+  margin-top: 0;
+}

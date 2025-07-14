@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         <main>
           <Routes>
             <Route path="/signin" element={<SignIn setUser={setUser} />} />

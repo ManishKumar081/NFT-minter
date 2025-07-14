@@ -18,7 +18,7 @@ function SignUp({ setUser }) {
     const user = { name, email, password };
     localStorage.setItem("user", JSON.stringify(user));
     setUser(user);
-    navigate("/");
+    navigate("/nft-minter");
   };
 
   return (

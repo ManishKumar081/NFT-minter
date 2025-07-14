@@ -95,7 +95,7 @@ function QRScannerBox() {
               cursor: "pointer",
             }}
           >
-            Take Photo of QR Code
+            Upload QR
           </label>
           <input
             type="file"

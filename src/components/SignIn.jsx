@@ -15,7 +15,7 @@ function SignIn({ setUser }) {
       return;
     }
     setUser(storedUser);
-    navigate("/");
+    navigate("/nft-minter");
   };
 
   return (

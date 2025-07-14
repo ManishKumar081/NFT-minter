@@ -48,7 +48,7 @@ function MintForm() {
       />
       <input
         type="url"
-        placeholder="Image URL (IPFS recommended)"
+        placeholder="Image URL"
         value={imageUrl}
         onChange={e => setImageUrl(e.target.value)}
         required
