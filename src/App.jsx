@@ -5,6 +5,7 @@ import MintForm from "./components/MintForm";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import ProductDetails from "./components/ProductDetails";
+import Home from "./components/Home";
 import "./App.css";
 
 function App() {
@@ -19,16 +20,8 @@ function App() {
             <Route path="/signin" element={<SignIn setUser={setUser} />} />
             <Route path="/signup" element={<SignUp setUser={setUser} />} />
             <Route path="/product/:hash" element={<ProductDetails />} />
-            <Route
-              path="/"
-              element={
-                user ? (
-                  <MintForm />
-                ) : (
-                  <Navigate to="/signin" />
-                )
-              }
-            />
+            <Route path="/nft-minter" element={user ? <MintForm /> : <Navigate to="/signin" />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </main>
       </div>
