@@ -6,13 +6,13 @@ const products = [
   {
     id: 1,
     name: "Laptop",
-    price: "$49.99",
+    price: "$549.99",
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
   },
   {
     id: 2,
     name: "Smart Phone",
-    price: "$99.99",
+    price: "$299.99",
     image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
   },
   {
@@ -24,7 +24,7 @@ const products = [
   {
     id: 4,
     name: "Furniture",
-    price: "$39.99",
+    price: "$139.99",
     image: "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80",
   },
 ];
